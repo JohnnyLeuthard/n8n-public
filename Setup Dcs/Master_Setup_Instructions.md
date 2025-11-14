@@ -21,7 +21,10 @@
 - [DOCK-010 Install Docker Engine](./DOCK/DOCK-010_Install-Docker.md)  
 - [DOCK-020 Verify Docker Group Permissions](./DOCK/DOCK-020_Verify-Permissions.md)  
 - [DOCK-030 Install Docker Compose](./DOCK/DOCK-030_Install-Docker-Compose.md)  
-- [DOCK-040 Test Docker Installation](./DOCK/DOCK-040_Test-Hello-World.md)  
+- [DOCK-040 Test Docker Installation](./DOCK/DOCK-040_Test-Hello-World.md)
+
+## GIT - GitHub 
+- [GIT-010_Setup_FineGrainedToken_SingleRepo](./GIT/GIT-010_Setup_FineGrainedToken_SingleRepo.md) 
 
 ## N8N – n8n Setup and Integrations
 - [N8N-010 Base Installation](./N8N/N8N-010_Base-Install.md)  
@@ -30,6 +33,9 @@
 - [N8N-095 Slack Connector](./N8N/N8N-095_Slack-Connector.md)  
 - [N8N-100 Email Notifications](./N8N/N8N-100_Email-Notifications.md)  
 - [N8N-110 Backup and GitHub Sync](./N8N/N8N-110_Backup-and-GitHub-Sync.md)  
+
+## MSC - Misc
+
 
 ## MON – Monitoring and Maintenance
 - [MON-010 Set Up Uptime Monitoring](./MON/MON-010_Setup-Uptime-Monitoring.md)  
@@ -42,10 +48,17 @@
 - [SEC-030 Enable Automatic Updates](./SEC/SEC-030_Auto-Updates.md)  
 - [SEC-040 Protect n8n Credentials](./SEC/SEC-040_n8n-Credential-Protection.md)  
 
+## TAIL - ailscale Document Links
+- [TAIL-010 Tailscale Setup on GCP Ubuntu](./TAIL/TAIL-010_Tailscale_GCP_Ubuntu_Setup.md)
+- [TAIL-020 Tailscale Troubleshooting](./TAIL/TAIL-020_Tailscale_Troubleshooting.md)
+
+
 ## UPG – Upgrades and Maintenance
 - [UPG-010 Update Docker Images Safely](./UPG/UPG-010_Update-Docker-Images.md)  
 - [UPG-020 Backup Workflow Data and Credentials](./UPG/UPG-020_Backup-Data.md)  
 - [UPG-030 Restore from Backup](./UPG/UPG-030_Restore-From-Backup.md)  
+
+
 
 ## Legend / Key
 
@@ -54,7 +67,9 @@
 | **GCP** | Google Cloud Platform | Cloud setup, APIs, credentials, VM, networking |
 | **SYS** | System Configuration | SSH, users, packages, Tailscale |
 | **DOCK** | Docker Environment | Docker Engine, Compose, validation |
+| **MSC** | Misc.             | Vatious items withouta hone |
 | **N8N** | n8n Setup & Integrations | Base install, connectors, notifications |
 | **MON** | Monitoring | Uptime, logs, health checks |
 | **SEC** | Security | SSH hardening, firewall, updates |
 | **UPG** | Upgrades | Updates, backups, restores |
+| **GIT** | backups  | GitHub related |
